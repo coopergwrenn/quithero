@@ -1,0 +1,30 @@
+{
+  "name": "quitvape",
+  "version": "0.0.1",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "dev": "expo start --web",
+    "ios": "expo start --ios",
+    "android": "expo start --android",
+    "build:web": "expo export --web"
+  },
+  "dependencies": {
+    "@expo/cli": "0.24.20",
+    "expo": "~52.0.30",
+    "expo-router": "~4.0.17",
+    "metro": "0.83.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-gesture-handler": "~2.16.1",
+    "react-native-reanimated": "~3.12.1",
+    "react-native-safe-area-context": "^5.6.0",
+    "react-native-web": "~0.19.12"
+  },
+  "devDependencies": {
+    "@types/react": "~18.2.46",
+    "@types/react-native": "~0.73.0",
+    "typescript": "~5.3.3"
+  }
+}
