@@ -3,6 +3,16 @@
     "name": "QuitVape",
     "slug": "quitvape",
     "scheme": "quitvape",
-    "orientation": "portrait"
+    "orientation": "portrait",
+    "version": "1.0.0",
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "bundleIdentifier": "com.yourcompany.quitvape",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.yourcompany.quitvape",
+      "versionCode": 1
+    }
   }
 }
